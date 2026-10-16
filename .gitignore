@@ -1,0 +1,23 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Результаты парсинга, логи и диагностика
+output/*.xlsx
+output/*.png
+output/*.html
+output/last_response.txt
+*.log
+
+# Playwright
+playwright-report/
+test-results/
+
+# IDE
+.idea/
+.vscode/
